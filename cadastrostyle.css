@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+  }
+  
+  body{
+    background-color: #0F1229;
+    font-family: 'Roboto Mono', monospace;
+  font-family: 'Ysabeau Office', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 100vh; 
+  }
+  .greating{
+    font-size: 2rem;
+  }
+  .orangeline {
+    color: #B96600;
+    text-decoration: underline;
+}
+input {
+    border: none;
+    max-width: 190px;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    background-color: #141735;
+    width: 100%;
+    box-sizing: border-box;
+}
+.form-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.labels{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+button{
+    max-width: 90px;
+    background-color: #141735;
+    border-radius: 20%;
+}
