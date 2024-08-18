@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Foxify Home</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Ysabeau+Office:ital@1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="nav-bar">
+      <div class="logo">
+        <img src="Imagens/foxify_logo.png" width="50" alt="Logo Foxify">
+      </div>
+      <div class="nav-list">
+        <ul>
+          <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Planos</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Seja artista</a></li>
+        </ul>
+      </div>
+      <div class="login-button">
+        <button><a href="loginpage.html"> Criar conta </a></button>
+        <button><a href="loginpage.html"> Login </a></button>
+      </div>
+      <div class="mobile-menu-icon">
+        <button onclick="menuShow()">
+          <img class="icon" src="Imagens/1024px-Hamburger_icon_white.svg.png" width="50" alt="Menu">
+        </button>
+      </div>
+    </nav>
+    <div class="mobile-menu">
+      <ul>
+        <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+      </ul>
+      <div class="login-button">
+        <button><a href="#">Entrar</a></button>
+      </div>
+    </div>
+  </header>
+
+  <article>
+    <div class="titlebloco1">
+      <h1>Mais que música, mais que Podcast, <span class="orangeline">Foxify</span></h1>
+      <br>
+      <br>
+      <div class="girl">
+        <img src="Imagens/lofi.png" width="400" alt="Girl with headphones">
+      </div>
+    </div>
+
+    <div class="pbloco1">
+      <p>
+        Foxify experience é o stream de música perfeito para você que quer ouvir milhões de faixas, e você artista que quer mostrar sua arte ao <span class="orangeline"> mundo </span>.
+      </p>
+    </div>
+  </article>
+  <br>
+
+  <div class="wrapper">
+    <a class="button" href="#" onclick="exibirmensagem()"><span>Download</span></a>
+    <a class="button" href="#"><span>Teste grátis</span></a>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
